@@ -1,0 +1,1 @@
+(()=>{"use strict";document.getElementById("urlForm").addEventListener("submit",function(e){var n;e.preventDefault(),n=document.getElementById("name").value,console.log("::: Running checkForName :::",n),["Picard","Janeway","Kirk","Archer","Georgiou"].includes(n)?alert("Welcome, Captain!"):alert("Enter a valid captain name")})})();
